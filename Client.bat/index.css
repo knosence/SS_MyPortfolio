@@ -1,15 +1,16 @@
 *,
 *::before,
 *::after {
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
     display: grid;
+    grid-template-rows: 1fr 10fr 5fr;
+    padding: 0;
     align-items: center;
-    grid-template-rows: 1fr 15fr 5fr;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -76,7 +77,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 87vh;
+
 }
 
 .landing_image {
@@ -95,33 +96,13 @@ nav {
 
 .landing__links {
    display: flex; 
+   padding-top: 16px;;
    /* align-items: center; */
    /* justify-content: space-between; */
 }
 
 .landing__link {
     padding: 0px 30px;
-}
-
-/* About me discription */
-.about_me--dark{
-    background-color: #242424;
-    color: lightgray;
-}
-
-.card__title {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    color: lightgray;
-    margin: 0px
-}
-
-.card__para {
-    /* grid-column: 3; */
-    max-width: 500px;
-    text-align: center;
-    justify-content: center;
 }
 
 .skill_title {
@@ -149,8 +130,7 @@ footer {
   }
   
   .footer__social--link,
-  .footer__copyright,
-  .footer__logo--popper {
+  .footer__copyright{
     color: #fff;
   }
   
