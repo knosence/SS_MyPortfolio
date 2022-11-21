@@ -105,6 +105,13 @@ li {
     padding: 1rem 1rem;
 }
 
+.nav_bar img {
+    border-radius: 0px;
+    height: auto;
+    grid-column: 2;
+}
+
+
 .nav_bar__personal_icon {
     grid-column: 2;
     margin: auto;
@@ -291,7 +298,7 @@ figure {
 
 .grid-row {
     display: grid;
-    grid-template-rows: repeat(auto, 1fr);
+    /* grid-template-rows: repeat(auto, 1fr); */
 }
 
 .school-date {
