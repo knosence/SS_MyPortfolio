@@ -345,7 +345,7 @@ figure {
     grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
-    height: 25vh;
+    height: 30vh;
 }
 
 .footer__icon img {
