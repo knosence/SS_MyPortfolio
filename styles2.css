@@ -57,3 +57,9 @@
 .occupation__items p {
     font-weight: 300;
 }
+
+.width-it {
+    max-width: 900px;
+    font-weight: 400;
+    margin: 10px 0px 30px 50px;
+}
