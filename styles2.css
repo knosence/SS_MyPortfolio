@@ -1,0 +1,29 @@
+.two-item-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 24px 0px;
+
+}
+
+.item__two {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.item__one {
+    font-size: 1rem;
+    font-weight: 500;
+    /* border: 1px black solid; */
+}
+
+.item__one li {
+    list-style: circle;
+    /* padding: 5px 0px; */
+}
+
+.item__one img {
+    height: 300px;
+    width: auto;
+    padding: 5px;
+}
