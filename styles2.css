@@ -27,3 +27,26 @@
     width: auto;
     padding: 5px;
 }
+
+.interests {
+    padding-top: 50px;
+    
+}
+
+.about_me h2 {
+    font-size:xx-large;
+}
+
+.about_me img {
+    height: 300px;
+    width: auto;
+    padding: 5px;
+}
+
+.center {
+    height: 300px;
+    width: auto;
+    padding: 5px;
+    margin: auto;
+    grid-column: 2;
+}
