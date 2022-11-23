@@ -5,9 +5,12 @@
 
 }
 
+.bold--it {
+    font-weight: bold;
+}
+
 .item__two {
     font-size: 1.5rem;
-    font-weight: bold;
     
 }
 
@@ -49,4 +52,8 @@
     padding: 5px;
     margin: auto;
     grid-column: 2;
+}
+
+.occupation__items p {
+    font-weight: 300;
 }
